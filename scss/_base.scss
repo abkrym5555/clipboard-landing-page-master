@@ -1,0 +1,35 @@
+:root {
+  --color-primary-blue: #6173ff;
+  --color-primary-green: #26baa4;
+
+  --gray-dark: hsl(210, 10%, 33%);
+  --gray-light: hsl(201, 11%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--gray-light);
+  box-sizing: border-box;
+  font-size: 1.8rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
