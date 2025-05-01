@@ -2,3 +2,43 @@
   font-family: "Bai Jamjuree";
   src: url("../../fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf");
 }
+h1 {
+  font-size: 4.5rem;
+  //at 500px
+  @media (max-width: 31.25em) {
+    font-size: 3rem;
+  }
+}
+h2 {
+  margin-top: 15rem;
+  font-size: 3.5rem;
+  //at 500px
+  @media (max-width: 31.25em) {
+    font-size: 2.5rem;
+    margin-top: 10rem;
+  }
+}
+h3 {
+  font-size: 2rem;
+}
+.heading-part {
+  margin: 4rem 0;
+  text-align: center;
+  //at 500px
+  @media (max-width: 31.25em) {
+    margin: 2rem 0;
+  }
+  &__title {
+    color: #545454;
+    margin-bottom: 1.6rem;
+    font-weight: 600;
+  }
+  &__description {
+    max-width: 68rem;
+    margin-inline: auto;
+    line-height: 1.7;
+    @media (max-width: 31.25em) {
+      font-size: 1.6rem;
+    }
+  }
+}

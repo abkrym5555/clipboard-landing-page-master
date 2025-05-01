@@ -1,6 +1,8 @@
 :root {
   --color-primary-blue: #6173ff;
+  --color-primary-blue-hover: #7a88f4;
   --color-primary-green: #26baa4;
+  --color-primary-green-hover: #5ed4c2;
 
   --gray-dark: hsl(210, 10%, 33%);
   --gray-light: hsl(201, 11%, 66%);
@@ -23,13 +25,17 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 body {
   color: var(--gray-light);
   box-sizing: border-box;
   font-size: 1.8rem;
-  font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
 }
